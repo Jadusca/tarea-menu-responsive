@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarea Menu Responsive</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="cel.css">
+  <script src="https://kit.fontawesome.com/d188054eba.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <figure>
+      <img src="imagenes/logo_arriba.png" alt="">
+    </figure>
+    <div id="menu">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <div class="ocultar" id="caja-menu">
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Nuestros Productos</a>
+        <a href="#">Contactanos</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="banner">
+    <h1>Cultivamos verduras orgánicas <br> y las traemos a tu mesa</h1>
+  </div>
+
+  <section>
+    <h1>Nuestros Servicios</h1>
+    <h3>Lo que ofrecemos</h3>
+
+    <div class="acomodo">
+      <article>
+        <figure>
+          <img src="imagenes/icono1.png" alt="">
+        </figure>
+        <h3>Ganado Vacunado</h3>
+        <p>Carne de res producida sin ingeneria genetica, uso de radiacion ionizante o lodos de depuradora</p>
+      </article>
+
+      <article>
+        <figure>
+          <img src="imagenes/icono2.png" alt="">
+        </figure>
+        <h3>Productos Lácteos</h3>
+        <p>Los productos lácteos como la leche, el queso y el yogur contienen los nutrientes que su cuerpo necesita </p>
+      </article>
+
+      <article>
+        <figure>
+          <img src="imagenes/icono3.png" alt="">
+        </figure>
+        <h3>Frutas de la Huerta</h3>
+        <p>Cubre todo lo que necesitas saber para cultivar y comercializar con exito sus propias frutas organicas de huerta</p>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    <figure>
+      <img src="imagenes/logo_abajo.png" alt="">
+    </figure>
+  </footer>
+</body>
+
+<script>
+// SCRIPT para el menu desplegable
+$("#menu").click(function () {
+  $("#caja-menu").slideToggle();
+});
+</script>
+
+</html>

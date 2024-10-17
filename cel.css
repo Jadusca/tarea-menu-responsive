@@ -1,0 +1,59 @@
+@media screen and (max-width: 480px){
+
+  :root{
+    --Gris: #f3f3f3;
+    --Verde: #6cb500;
+    --Gris_Menu: #f3f3f3;
+  }
+
+  header{
+    border: 1px green solid;
+    flex-direction: column;
+    align-items: start;
+  }
+
+header nav{
+  flex-direction: column;
+  align-items: start;
+  background-color: var(--Gris_Menu);
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  }
+
+header nav a{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-bottom: 2px black dotted;
+  width: 100%;
+  font-size: 17px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+  #menu{
+    display: block;
+    height: 55px;
+    margin-top: 5px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding: 20px;
+  }
+
+  .ocultar{
+    display: none;
+    width: 100%;
+  }
+
+  .banner h1{
+    font-size: 40px;
+    line-height: 48px;
+    padding-left: 5%;
+  }
+
+  .acomodo{
+    flex-direction: column;
+  }
+}
